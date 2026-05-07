@@ -1,0 +1,14 @@
+package kadai_018;
+
+public class KatoIchiro_Chapter18 extends Kato_Chapter18 {
+
+    public void setGivenName() {
+        this.givenName = "一郎";
+    }
+
+    // 親の抽象メソッドを実装する
+    @Override
+    public void eachIntroduce() {
+        System.out.println("好きな食べ物はリンゴです");
+    }
+}
